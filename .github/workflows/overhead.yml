@@ -1,0 +1,10 @@
+name: overhead
+
+on: push
+
+jobs:
+  overhead:
+    runs-on: ubuntu-latest
+    steps:
+      - name: baseline-echo
+        run: echo "ci-overhead-baseline: minimal harness, no real work"
